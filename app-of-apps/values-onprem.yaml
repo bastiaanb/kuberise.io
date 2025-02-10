@@ -91,7 +91,7 @@ ArgocdApplications:
     enabled: false
 
   kyverno:
-    enabled: true
+    enabled: false
 
   #=================================#
   #      Monitoring Stack           #
@@ -123,7 +123,7 @@ ArgocdApplications:
     syncWave: 1
 
   opencost:
-    enabled: true
+    enabled: false
     syncWave: 1
 
   #=================================#
