@@ -1,10 +1,10 @@
 configs:
   cm:
     timeout.reconciliation: 5s
-    url: https://argocd.onprem.kuberise.dev
+    url: https://argocd.172.18.0.3.nip.io
     oidc.config: |
       name: Keycloak
-      issuer: https://keycloak.onprem.kuberise.dev/realms/platform
+      issuer: https://keycloak.172.18.0.3.nip.io/realms/platform
       clientID: argocd
       clientSecret: $oidc.keycloak.clientSecret
       requestedScopes: ["openid", "profile", "email", "groups"]
