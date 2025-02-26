@@ -145,3 +145,6 @@ ArgocdApplications:
 
   backend:
     enabled: true
+
+  bb-demo:
+    enabled: true

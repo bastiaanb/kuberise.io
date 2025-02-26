@@ -1,0 +1,9 @@
+demo:
+  ingress:
+    enabled: true
+    className: nginx-external
+    hosts:
+      - host: bb-demo.172.18.0.3.nip.io
+        paths:
+          - path: /
+            pathType: ImplementationSpecific  

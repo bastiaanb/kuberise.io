@@ -180,3 +180,8 @@ ArgocdApplications:
     path: templates/generic-deployment
     valuesFolder: applications
     namespace: backend
+
+  # a sample of microservice with internal traffic
+  bb-demo:
+    enabled: false
+    valuesFolder: applications

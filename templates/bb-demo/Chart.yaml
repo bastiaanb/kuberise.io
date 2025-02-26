@@ -1,0 +1,7 @@
+apiVersion: v2
+name: bb-demo
+version: 1.0.0
+dependencies:
+  - name: demo
+    version: 0.1.0
+    repository: oci://ghcr.io/joonas
