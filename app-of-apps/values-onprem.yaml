@@ -55,7 +55,7 @@ ArgocdApplications:
     enabled: true
 
   cilium:
-    enabled: false
+    enabled: true
     syncWave: 1
     ignoreDifferences:
       - group: "*"
@@ -78,7 +78,7 @@ ArgocdApplications:
     enabled: true
 
   vault:
-    enabled: false
+    enabled: true
 
   sealed-secrets:
     enabled: false
@@ -88,7 +88,7 @@ ArgocdApplications:
     syncWave: 1
 
   external-secrets:
-    enabled: false
+    enabled: true
 
   kyverno:
     enabled: true
