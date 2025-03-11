@@ -3,6 +3,6 @@ opencost:
     ui:
       ingress:
         hosts:
-          - host: opencost.172.18.0.3.nip.io
+          - host: opencost.172.19.0.2.nip.io
             paths:
               - /

@@ -3,7 +3,7 @@ demo:
     enabled: true
     className: nginx-external
     hosts:
-      - host: bb-demo.172.18.0.3.nip.io
+      - host: bb-demo.172.19.0.2.nip.io
         paths:
           - path: /
             pathType: ImplementationSpecific  
