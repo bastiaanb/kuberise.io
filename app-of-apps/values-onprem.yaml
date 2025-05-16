@@ -79,7 +79,7 @@ ArgocdApplications:
     enabled: true
 
   cilium:
-    enabled: false
+    enabled: true
     syncWave: 1
     ignoreDifferences:
       - group: "*"
@@ -105,14 +105,14 @@ ArgocdApplications:
     enabled: false
 
   oauth2-proxy:
-    enabled: false
+    enabled: true
     syncWave: 2
 
   external-secrets:
-    enabled: false
+    enabled: true
 
   kyverno:
-    enabled: false
+    enabled: true
 
   policy:
     enabled: false
@@ -121,7 +121,7 @@ ArgocdApplications:
     enabled: false
 
   vault:
-    enabled: false
+    enabled: true
 
   vault-secrets-operator:
     enabled: false
