@@ -6,7 +6,7 @@ core:
     enabled: true
     ingress:
       enabled: true
-      host: neuvector.onprem.kuberise.dev
+      host: neuvector.172.21.03.nip.io
       ingressClassName: nginx-external
       tls: true
   cve:

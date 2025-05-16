@@ -1,2 +1,2 @@
 rancher:
-  hostname: rancher.onprem.kuberise.dev
+  hostname: rancher.172.21.03.nip.io
