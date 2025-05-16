@@ -1,7 +1,7 @@
 ingress-nginx:
   controller:
     hostPort:
-      enabled: true
+      enabled: false
 
     updateStrategy:
       type: Recreate
