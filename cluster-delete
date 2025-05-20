@@ -1,0 +1,3 @@
+#!/bin/bash
+
+k3d-linux-amd64 cluster delete kuberise
