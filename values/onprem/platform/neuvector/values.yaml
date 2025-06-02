@@ -6,7 +6,7 @@ core:
     enabled: true
     ingress:
       enabled: true
-      host: neuvector.172.21.0.3.nip.io
+      host: neuvector.172.21.0.2.nip.io
       ingressClassName: nginx-external
       tls: true
   cve:
