@@ -3,7 +3,7 @@ vcluster:
     ingress:
       enabled: true
       # Host is the host where vCluster will be reachable
-      host: vcluster.172.21.0.2.nip.io
+      host: vcluster.172.18.0.2.nip.io
       annotations:
         nginx.ingress.kubernetes.io/backend-protocol: HTTPS
         nginx.ingress.kubernetes.io/ssl-passthrough: "true"
@@ -12,9 +12,9 @@ vcluster:
         ingressClassName: nginx-external
         tls:
           - hosts:
-              - vcluster.172.21.0.2.nip.io
+              - vcluster.172.18.0.2.nip.io
   exportKubeConfig:
     context: vcluster
-    server: vcluster.172.21.0.2.nip.io
+    server: vcluster.172.18.0.2.nip.io
     secret:
       name: vcluster-kubeconfig

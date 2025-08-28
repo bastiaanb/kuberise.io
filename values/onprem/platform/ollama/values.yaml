@@ -3,13 +3,13 @@ ollama:
     enabled: true
     className: nginx-external
     hosts:
-      - host: ollama.172.21.0.2.nip.io
+      - host: ollama.172.18.0.2.nip.io
         paths:
           - path: /
             pathType: Prefix
     tls:
       - hosts:
-          - ollama.172.21.0.2.nip.io
+          - ollama.172.18.0.2.nip.io
   ollama:
     models:
       pull:
