@@ -1,1 +1,3 @@
-# keycloakx:
+keycloakx:
+  args:
+  - --features=admin-fine-grained-authz:v1
